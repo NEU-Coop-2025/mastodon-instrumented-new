@@ -1,4 +1,6 @@
 import { useCallback, useRef } from 'react';
+// * TODO :@INTERVENTION: :@TRENDING-NEW:
+// Add a ticker that allows previously viewed toots by the user to be hidden on the trending page.
 
 import { defineMessages, useIntl, FormattedMessage } from 'react-intl';
 
