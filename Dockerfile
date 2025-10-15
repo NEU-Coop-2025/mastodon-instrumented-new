@@ -76,7 +76,7 @@ ENV \
   MASTODON_SIDEKIQ_READY_FILENAME=sidekiq_process_has_started_and_will_begin_processing_jobs
 
 # Set default shell used for running commands
-SHELL ["/bin/bash", "-o", "pipefail", "-o", "errexit", "-c"]
+SHELL ["/bin/zsh", "-o", "pipefail", "-o", "errexit", "-c"]
 
 ARG TARGETPLATFORM
 

@@ -6,6 +6,8 @@ class Trends::Statuses < Trends::Base
   BATCH_SIZE = 100
 
   self.default_options = {
+    # * TODO :@INTERVENTION: :@Trending_Threshold:
+    # How many reposts are needed for a post to trend.
     threshold: 5,
     review_threshold: 3,
     score_halflife: 1.hour.freeze,
